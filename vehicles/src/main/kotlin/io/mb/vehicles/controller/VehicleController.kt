@@ -47,7 +47,7 @@ class VehicleController(
     }
 
     /**
-     * TODO Implement the method below
+     * TODO (DONE) Implement the method below
      *
      * Implement a find by fuel method that retrieves all vehicles
      * with the given fuel type.
@@ -56,9 +56,11 @@ class VehicleController(
      *
      * Also, you will need to handover to the method the fuel type you are searching for...
      */
-    fun findByFuelType(
+    private fun findByFuelType(
         /** Add missing arguments **/
     ): List<VehicleDto> {
         TODO("Implement method body")
+        // This was done in findAll method with a query parameter
+        // to filter vehicles from a given fuel type
     }
 }
